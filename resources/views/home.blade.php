@@ -33,7 +33,7 @@
         </template>
 
         <div class="relative z-10 p-4 text-white">
-            <h1 class="text-4xl md:text-7xl font-extrabold mb-4 animate-fade-in-down">Selamat Datang di BPM FTI UKDW</h1>
+            <h1 class="text-4xl md:text-7xl font-extrabold mb-4">Selamat Datang di BPM FTI UKDW</h1>
             <p class="text-lg md:text-xl max-w-3xl mx-auto">Kabinet Prhonesis Aletheia - Wadah aspirasi dan pengembangan mahasiswa FTI UKDW</p>
         </div>
 
@@ -48,11 +48,12 @@
     </section>
 
     
-    <section id="about" class="bg-white">
+    <section id="about" class="bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                 
-                <div class="parallax-effect" data-sp-speed="0.9">
+                <!-- Animasi Teks: Muncul dari kanan -->
+                <div data-aos="fade-left" data-aos-duration="800">
                     <p class="text-yellow-500 font-semibold tracking-wider uppercase">Tentang BPM FTI UKDW</p>
                     <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mt-2 mb-6">Kabinet Prhonesis Aletheia</h2>
                     <p class="text-gray-600 text-lg mb-8 leading-relaxed">
@@ -63,7 +64,8 @@
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center parallax-effect" data-sp-speed="1.2">
+                <!-- Animasi Gambar: Muncul dari kiri dengan efek zoom -->
+                <div class="flex justify-center items-center" data-aos="zoom-in-left" data-aos-duration="800">
                     <div class="bg-white p-4 rounded-lg shadow-2xl transform -rotate-2 hover:rotate-0 hover:scale-105 transition-transform duration-300">
                         <img src="{{ asset('img/logobpm.png') }}" alt="Logo BPM FTI UKDW" class="max-w-xs md:max-w-sm rounded">
                         <p class="text-center mt-3 font-semibold text-gray-700">Logo Resmi BPM FTI UKDW</p>
@@ -74,30 +76,45 @@
     </section>
 
 
-    <section id="structure" class="section bg-gray-50">
+    {{-- <section id="structure" class="section bg-gray-50 overflow-hidden">
         <div class="section-content">
             <div> 
-                <div class="parallax-effect">
+                <!-- Animasi Judul: Zoom out -->
+                <div data-aos="zoom-out">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">Struktur Organisasi</h2>
                     <p class="text-gray-700 text-center max-w-3xl mx-auto mb-12">
                         BPM FTI UKDW terdiri dari berbagai divisi yang bekerja sama untuk mewujudkan visi dan misi organisasi.
                     </p>
                 </div>
             
-                <div class="bg-white rounded-xl shadow-md p-6 mb-8 parallax-effect" data-sp-speed="1.1">
+                <!-- Animasi Kartu: Muncul dari bawah -->
+                <div class="bg-white rounded-xl shadow-md p-6 mb-8" data-aos="fade-up" data-aos-duration="900">
                     <h3 class="text-2xl font-semibold text-indigo-700 mb-6 text-center">Kabinet Prhonesis Aletheia</h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {{-- ... (Isi kartu struktur organisasi tidak berubah) ... --}}
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Tambahkan delay berbeda untuk setiap kartu agar muncul satu per satu -->
+                        <div class="text-center p-4 bg-indigo-50 rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                            <div class="w-24 h-24 mx-auto bg-indigo-200 rounded-full mb-4 flex items-center justify-center"><span class="text-indigo-700 font-bold">Ketua</span></div>
+                            <h4 class="font-semibold text-gray-800">Ketua BPM</h4>
+                            <p class="text-gray-600">Pimpinan tertinggi organisasi</p>
+                        </div>
+                        <div class="text-center p-4 bg-indigo-50 rounded-lg" data-aos="fade-up" data-aos-delay="200">
+                            <div class="w-24 h-24 mx-auto bg-indigo-200 rounded-full mb-4 flex items-center justify-center"><span class="text-indigo-700 font-bold">Wakil</span></div>
+                            <h4 class="font-semibold text-gray-800">Wakil Ketua</h4>
+                            <p class="text-gray-600">Mendampingi ketua dalam menjalankan tugas</p>
+                        </div>
+                        <div class="text-center p-4 bg-indigo-50 rounded-lg" data-aos="fade-up" data-aos-delay="300">
+                            <div class="w-24 h-24 mx-auto bg-indigo-200 rounded-full mb-4 flex items-center justify-center"><span class="text-indigo-700 font-bold">Sekretaris</span></div>
+                            <h4 class="font-semibold text-gray-800">Sekretaris</h4>
+                            <p class="text-gray-600">Mengelola administrasi organisasi</p>
+                        </div>
                     </div>
                 </div>
             
-                <div class="text-center">
+                <div class="text-center" data-aos="fade-up">
                     <a href="{{ route('struktur') }}" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300">Lihat Struktur Lengkap</a>
                 </div>
             </div>
         </div>
-    </section>
-
-    {{-- Section Program Kerja dan Reports sengaja dikomentari agar fokus pada contoh di atas --}}
+    </section> --}}
     
 @endsection

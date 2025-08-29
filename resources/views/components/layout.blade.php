@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         [x-cloak] { display: none !important; }
@@ -42,28 +45,13 @@
 
     @stack('scripts')
 
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log("✅ Halaman Selesai Dimuat. Mencari elemen parallax...");
-
-            var parallaxElements = document.querySelectorAll('.parallax-effect');
-            
-            console.log("🔍 Ditemukan:", parallaxElements.length, "elemen dengan class 'parallax-effect'.");
-
-            if (parallaxElements.length > 0) {
-                new simpleParallax(parallaxElements, {
-                    delay: .4,
-                    transition: 'cubic-bezier(0,0,0,1)',
-                    overflow: true,
-                    scale: 1.6
-                });
-                console.log("🚀 Animasi Parallax Berhasil Diinisialisasi!");
-            } else {
-                console.log("⚠️ Tidak ada elemen untuk dianimasikan. Cek class 'parallax-effect' di file HTML Anda.");
-            }
-        });
+      AOS.init({
+        once: false, // Agar animasi berjalan setiap kali di-scroll
+        anchorPlacement: 'center', // TAMBAHKAN BARIS INI
+        mirror: false //memastikan animasi berjalan selalu dari start dan tidak ada mirror di animasinya 
+      });
     </script>
 </body>
 </html>
