@@ -4,40 +4,7 @@
 
 @tailwind utilities;
 
-
-.scroll-reveal-element {
-  opacity: 0;
-  transform: translateY(-20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.scroll-reveal-element.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.marquee {
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-    color: white;
-    background-color: darkblue; /* Kode warna untuk darkblue */
-}
-
-.marquee-content {
-    display: flex;
-    animation: scroll-left 40s linear infinite;
-}
-
-.marquee-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    padding: 0 2rem; /* Jarak antar ikon */
-}
-
-@keyframes scroll-left {
+/* @keyframes scroll-left {
     0% {
         transform: translateX(0);
     }
@@ -45,16 +12,4 @@
         transform: translateX(-100%);
     }
 }
-
-/* Tambahkan di akhir file resources/css/app.css */
-
-.animate-on-scroll {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1s ease-out, transform 1s ease-out;
-}
-
-.animate-on-scroll.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
+ */

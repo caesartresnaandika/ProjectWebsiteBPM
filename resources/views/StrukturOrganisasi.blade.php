@@ -26,7 +26,7 @@
                 <div class="container mx-auto px-6 py-16 md:py-24">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-                        <div x-data="{
+                        <div data-aos="flip-left" data-aos-duration="1000" class="relative w-full max-w-md mx-auto aspect-[4/5] md:order-first" x-data="{
                             activeSlide: 1,
                             slides: [
                                 { img: '{{ asset('img/fotodivisibph/divisi BPH.png') }}', name: 'Foto Bersama Divisi BPH' },
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                         
-                        <div class="text-left md:text-right md:order-last">
+                        <div class="text-left md:text-right md:order-last" data-aos="fade-left" data-aos-duration="1000">
                             <h1 class="text-5xl md:text-7xl font-bold text-gray-800 tracking-tight">
                                 Divisi BPH
                             </h1>
@@ -96,7 +96,7 @@
             <div class="container mx-auto px-6 py-16 md:py-24">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-                    <div class="text-left">
+                    <div class="text-left" data-aos="zoom-in-right" data-aos-duration="900">
                         <h1 class="text-5xl md:text-7xl font-bold text-gray-800 tracking-tight">
                             Divisi Aspirasi
                         </h1>
@@ -105,7 +105,7 @@
                         </p>
                     </div>
 
-                    <div x-data="{
+                    <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="200" class="relative w-full max-w-md mx-auto aspect-[4/5]" x-data=" {
                         activeSlide: 1,
                         slides: [
                             { img: '{{ asset('img/fotodivisiaspirasi/Divisi Aspirasi.png') }}', name: 'Foto Bersama Divisi Aspirasi' },
@@ -165,7 +165,7 @@
             <div class="container mx-auto px-6 py-16 md:py-24">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-                    <div x-data="{
+                    <div data-aos="fade-right" data-aos-duration="1000" class="relative w-full max-w-md mx-auto aspect-[4/5] md:order-first" x-data="{
                         activeSlide: 1,
                         slides: [
                             { img: '{{ asset('img/fotodivisidesgraf/Divisi DesGraf.png') }}', name: 'Foto Bersama Divisi DesGraf' },
@@ -206,7 +206,7 @@
                         </div>
                     </div>
                     
-                    <div class="text-left md:text-right md:order-last">
+                    <div class="text-left md:text-right md:order-last" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                         <h1 class="text-5xl md:text-7xl font-bold text-gray-800 tracking-tight">
                             Divisi DesGraf
                         </h1>
@@ -233,7 +233,7 @@
             <div class="container mx-auto px-6 py-16 md:py-24">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-                    <div class="text-left">
+                    <div class="text-left" data-aos="zoom-in-up" data-aos-duration="800">
                         <h1 class="text-5xl md:text-7xl font-bold text-gray-800 tracking-tight">
                             Divisi Keorganisasian
                         </h1>
@@ -242,7 +242,7 @@
                         </p>
                     </div>
 
-                    <div x-data="{
+                    <div data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="200" class="relative w-full max-w-md mx-auto aspect-[4/5]" x-data="{
                         activeSlide: 1,
                         slides: [
                             { img: '{{ asset('img/fotodivisikeorganisasian/Keorganisasian.png') }}', name: 'Foto Bersama Divisi Keorganisasian' },
@@ -302,7 +302,7 @@
             <div class="container mx-auto px-6 py-16 md:py-24">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-                    <div x-data="{
+                    <div data-aos="flip-right" data-aos-duration="1000" class="relative w-full max-w-md mx-auto aspect-[4/5] md:order-first" x-data="{
                         activeSlide: 1,
                         slides: [
                             { img: '{{ asset('img/fotodivisilegvo/Legvo.png') }}', name: 'Foto Bersama Divisi DesGraf' },
@@ -343,7 +343,7 @@
                         </div>
                     </div>
                     
-                    <div class="text-left md:text-right md:order-last">
+                    <div class="text-left md:text-right md:order-last" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
                         <h1 class="text-5xl md:text-7xl font-bold text-gray-800 tracking-tight">
                             Divisi Legvo
                         </h1>
@@ -368,7 +368,7 @@
             <div class="container mx-auto px-6 py-16 md:py-24">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-                    <div class="text-left">
+                    <div class="text-left" data-aos="fade-up-right" data-aos-duration="900">
                         <h1 class="text-5xl md:text-7xl font-bold text-gray-800 tracking-tight">
                             Divisi Rinov
                         </h1>
@@ -376,7 +376,7 @@
                             Divisi Riset dan Inovasi (RINOV) adalah wadah bagi para pemikir visioner dan agen perubahan di FTI UKDW! Kami hadir untuk mengembangkan budaya berpikir kritis dan inovatif di lingkungan FTI. Ide-ide gila, pemikiran progresif, serta solusi disruptif? Serahkan pada kami! Bersama RINOV, kami mendorong eksplorasi tanpa batas, riset berdampak, dan terobosan teknologi yang tidak hanya menjawab tantangan hari ini, tetapi juga menciptakan masa depan yang lebih cerah dan penuh kemungkinan.
                     </div>
 
-                    <div x-data="{
+                    <div data-aos="fade-up-left" data-aos-duration="900" data-aos-delay="200" class="relative w-full max-w-md mx-auto aspect-[4/5]" x-data="{
                         activeSlide: 1,
                         slides: [
                             { img: '{{ asset('img/fotodivisirinov/Rinov.png') }}', name: 'Foto Bersama Divisi Riset dan Inovasi' },
