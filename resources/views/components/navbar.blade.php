@@ -24,7 +24,7 @@
                     <a href="{{ route('about') }}" class="rounded-md px-4 py-3 text-lg font-medium transition-colors duration-200 {{ request()->routeIs('about') ? 'text-white scale-110 font-bold' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">About Us</a>
                     <a href="{{ route('struktur') }}" class="rounded-md px-4 py-3 text-lg font-medium transition-colors duration-200 {{ request()->routeIs('struktur') ? 'text-white scale-110 font-bold' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">Kepengurusan</a>
                     <a href="{{ route('program') }}" class="rounded-md px-4 py-3 text-lg font-medium transition-colors duration-200 {{ request()->routeIs('program') ? 'text-white scale-110 font-bold' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">Program Kerja</a>
-                    <a href="{{ route('kegiatan') }}" class="rounded-md px-4 py-3 text-lg font-medium transition-colors duration-200 {{ request()->routeIs('kegiatan') ? 'text-white scale-110 font-bold' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">Kegiatan Mahasiswa</a>
+                    {{-- <a href="{{ route('kegiatan') }}" class="rounded-md px-4 py-3 text-lg font-medium transition-colors duration-200 {{ request()->routeIs('kegiatan') ? 'text-white scale-110 font-bold' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">Kegiatan Mahasiswa</a> --}}
                 </div>
             </div>
             
