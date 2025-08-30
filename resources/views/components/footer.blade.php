@@ -1,13 +1,16 @@
 <footer class="bg-gray-800 text-white py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-20">
-            <div>
-                <h3 class="text-xl font-bold">BPM FTI UKDW</h3>
-                <p class="text-gray-300">Kabinet Phronesis Aletheia</p>
-                <p class="text-gray-300 mt-4">Fakultas Teknologi Informasi</p>
-                <p class="text-gray-300">Universitas Kristen Duta Wacana</p>
-                <p class="text-gray-300 mt-2">Jl. Dr. Wahidin Sudirohusodo No.5-25, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224</p>
-            </div>  
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-20">
+            
+            <div class="flex items-start space-x-4">
+                <div>
+                    <h3 class="text-xl font-bold">BPM FTI UKDW</h3>
+                    <p class="text-gray-300">Kabinet Phronesis Aletheia</p>
+                    <p class="text-gray-300 mt-4">Fakultas Teknologi Informasi</p>
+                    <p class="text-gray-300">Universitas Kristen Duta Wacana</p>
+                    <p class="text-gray-300 mt-2 text-sm">Jl. Dr. Wahidin Sudirohusodo No.5-25, Kotabaru, Yogyakarta 55224, Gedung Agape</p>
+                </div>
+            </div>
 
             <div>
                 <h3 class="text-xl font-bold mb-4">Tautan Cepat</h3>
@@ -16,7 +19,6 @@
                     <li><a href="{{ route('about') }}" class="text-gray-300 hover:text-white">About Us</a></li>
                     <li><a href="{{ route('struktur') }}" class="text-gray-300 hover:text-white">Struktur Organisasi</a></li>
                     <li><a href="{{ route('program') }}" class="text-gray-300 hover:text-white">Program Kerja</a></li>
-                    <li><a href="{{ route('kegiatan') }}" class="text-gray-300 hover:text-white">Rincian Kegiatan</a></li>
                 </ul>
             </div>
             
