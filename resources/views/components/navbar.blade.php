@@ -3,8 +3,9 @@
         <div class="flex h-20 items-center justify-between">
             <div class="flex items-center">
                 <a href="{{ route('home') }}" class="flex items-center">
-                    <div class="shrink-0">
+                    <div class="flex items-center space-x-4 shrink-0">
                         <img src="{{ asset('img/logobpm.png') }}" alt="Logo BPM FTI UKDW" class="size-20" />
+                        <img src="{{ asset('img/logofti.png') }}" alt="Logo FTI UKDW" class="size-20" />
                     </div>
                     <div class="ml-4 hidden md:block">
                         <div class="text-2xl font-bold text-white">BPM FTI UKDW</div>
