@@ -33,8 +33,8 @@
         </template>
 
         <div class="relative z-10 p-4 text-white">
-            <h1 class="text-4xl md:text-7xl font-extrabold mb-4">Selamat Datang di BPM FTI UKDW</h1>
-            <p class="text-lg md:text-xl max-w-3xl mx-auto">Kabinet Prhonesis Aletheia - Wadah aspirasi dan pengembangan mahasiswa FTI UKDW</p>
+            <h1 class="text-4xl md:text-7xl font-extrabold mb-4" data-aos="fade-down" data-aos-duration="700">Selamat Datang di BPM FTI UKDW</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto" data-aos="fade-up" data-aos-duration="700">Kabinet Prhonesis Aletheia - Wadah aspirasi dan pengembangan mahasiswa FTI UKDW</p>
         </div>
 
         <div class="absolute z-20 flex justify-between w-full top-1/2 -translate-y-1/2 px-4">

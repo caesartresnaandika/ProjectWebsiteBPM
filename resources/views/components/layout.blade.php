@@ -16,7 +16,7 @@
         }
         .dropdown-enter-from, .dropdown-leave-to {
             opacity: 0;
-            transform: translateY(-10px);
+            transform: translateY(-10px);s
         }
         .section {
             min-height: 100vh;
