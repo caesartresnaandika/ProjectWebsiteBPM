@@ -56,7 +56,7 @@
                 <!-- Animasi Teks: Muncul dari kanan -->
                 <div data-aos="fade-left" data-aos-duration="800">
                     <p class="text-yellow-500 font-semibold tracking-wider uppercase">Tentang BPM FTI UKDW</p>
-                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mt-2 mb-6">Kabinet Prhonesis Aletheia</h2>
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mt-2 mb-6">Kabinet Phronesis Aletheia</h2>
                     <p class="text-gray-600 text-lg mb-8 leading-relaxed">
                         Badan Perwakilan Mahasiswa Fakultas Teknologi Informasi (BPM FTI) UKDW merupakan lembaga legislatif yang menjadi jembatan untuk menampung dan memperjuangkan aspirasi seluruh mahasiswa FTI. Kabinet Prhonesis Aletheia berkomitmen untuk proaktif dan transparan dalam mendukung pengembangan mahasiswa.
                     </p>
