@@ -4,12 +4,13 @@
 
 @section('content')
 
-    <section id="home" class="relative h-screen flex items-center justify-center text-center overflow-hidden bg-gray-500" x-data="{
+    <section id="home" class="relative h-screen flex items-center justify-center text-center overflow-hidden bg-gray-800" x-data="{
             activeSlide: 1,
             slides: [
                 '{{ asset('img/fotobersama1.JPG') }}',
                 '{{ asset('img/fotobersama2.JPG') }}',
-                '{{ asset('img/fotobersama3.JPG') }}'
+                '{{ asset('img/fotobersama3.JPG') }}',
+                '{{ asset('img/fotobersama4.JPG') }}'
             ],
             loop() {
                 setInterval(() => {
