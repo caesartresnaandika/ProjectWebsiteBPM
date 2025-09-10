@@ -26,7 +26,7 @@
                 <h3 class="text-xl font-bold mb-4">Kontak</h3>
                 <p class="text-gray-300">Email: bpmfti@ukdw.ac.id</p>
                 <p class="text-gray-300">Instagram: @bpmfti_ukdw</p>
-                <p class="text-gray-300">Line: @bpmftiukdw</p>
+                {{-- <p class="text-gray-300">Line: @bpmftiukdw</p> --}}
             </div>
         </div>
         
